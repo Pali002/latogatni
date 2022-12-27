@@ -1,0 +1,21 @@
+table {
+    border-collapse: collapse;
+}
+
+th {
+    text-align: center;
+    background-color: orange;
+    color: white;
+}
+
+td {
+    text-align: center;
+}
+
+p { 
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-left: 800px;
+    margin-right: 800px;
+}

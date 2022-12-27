@@ -15,24 +15,26 @@ Licenc: GNU GPL  -->
   <title>Document</title>
 </head>
 <body class="light-theme">
-  <table class="table">
-    <thead>
-      <tr>
-        <th>Név</th>
-        <th>Megye</th>
-        <th>Terület(km²)</th>
-        <th>Népesség(Fő)</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr *ngFor="let city of cities">
-        <td>{{ city.name }}</td>
-        <td>{{ city.county }}</td>
-        <td>{{ city.area }}</td>
-        <td>{{ city.population }}</td>
-      </tr>
-    </tbody>
-  </table>
-  {{[name, class, date]}}
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Név</th>
+          <th>Megye</th>
+          <th>Terület(km²)</th>
+          <th>Népesség(Fő)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let city of cities">
+          <td>{{ city.name }}</td>
+          <td>{{ city.county }}</td>
+          <td>{{ city.area }}</td>
+          <td>{{ city.population }}</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+      {{[name, class, date]}}
+    </p>
 </body>
 </html>
