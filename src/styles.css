@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+/* File: styles.css
+Author: Zentai Pál
+Copyright: 2022, Zentai Pál
+Group: Szoft-II-N
+Date: 2022-12-27
+Github: https://github.com/Pali002
+Licenc: GNU GPL  */
+
+@import "bootstrap";
